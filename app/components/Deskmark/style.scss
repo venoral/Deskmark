@@ -1,0 +1,17 @@
+@charset "utf-8";
+html, body, div, section, h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	display: flex;
+	box-sizing: border-box;
+	.left-container {
+		flex: 4;
+		box-sizing: border-box;
+	}
+	.right-container {
+		flex: 6;
+		box-sizing: border-box;
+	}
+}

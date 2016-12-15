@@ -1,0 +1,8 @@
+//告诉babel，编译JS时候要用这两个presets编译
+{
+	"presets": ["es2015", "react"],
+	//在开发时候才启用的HMR和Catch Error
+	"env": {
+		"presets": ["react-hmre"]
+	}
+}

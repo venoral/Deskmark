@@ -1,0 +1,21 @@
+@charset "utf-8";
+.list-group-item {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #7C7B7B;
+	span {
+		margin: .5rem;
+	}
+	.title {
+		flex: 2;
+		cursor: pointer;
+	}
+	.time {
+		flex: 1;
+		padding: .2rem;
+    	border-radius: 15%;
+		background: #F2EDE7;
+	}
+}

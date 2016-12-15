@@ -1,0 +1,22 @@
+@charset "utf-8";
+.item-editor-component {
+	.control-area {
+		overflow: hidden;
+		padding: .5rem;
+		.btn {
+			float: right;
+			margin-right: .5rem;
+		}
+	}
+	.edit-area {
+		input {
+			display: block;
+			margin-left: .5rem;
+		}
+		textarea {
+			display: block;
+			margin: .5rem;
+			width: 94%;
+		}
+	}
+}
