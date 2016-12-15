@@ -1,12 +1,16 @@
 {
   "name": "deskmarkagain",
   "version": "1.0.0",
-  "description": "",
+  "description": "react demo with no flux",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --hot",
     "build": "webpack",
     "test": "set NODE_ENV=production && mocha --compilers js:babel-core/register --require ignore-styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/venoral/Deskmark.git"
   },
   "author": "venoral",
   "license": "ISC",
